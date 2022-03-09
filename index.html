@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Poppins:wght@400;600;700&family=Raleway:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="./style/style.css" media="screen" />
+    <title>Desafio Pixel Art</title>
+</head>
+<body>
+    <main>
+        <h1>Criador de Pixel Art</h1>
+        <p class="selecione-pixel">Selecione a cor do pixel</p>
+        <div class="color-container">
+            
+            <div class="color b1"></div>
+            <div class="color b2"></div>
+            <div class="color b3"></div>
+            <div class="color random">Rando<br>mize<br>Color</div>
+            <div class="color clear"><br>Clear</div>
+        </div>
+        <div class="board-selector">
+            <p> Qual a board desejada?</p>
+            <select name="board" class="board" id="board" size="1">
+                <option value="0">------</option>
+                <option value="5"> 5x5 </option>
+                <option value="10">10x10</option>
+                <option value="50">50x50</option>
+            </select>
+        </div>
+        <div class="pixel-container">
+        </div>
+        <div></div>
+    </main>
+    <script src="./script/script.js"></script>
+</body>
+</html>
